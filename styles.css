@@ -1,0 +1,44 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+body h1{
+    color: white;
+    text-align: center;
+}
+.container{
+    margin-top: 80px;
+    /* display: block; */
+    margin: auto;
+    /* background-color: red; */
+    /* width: 50vw; */
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+    height: 500px;
+    /* background-color: red; */
+}
+.btns{
+    margin-top: 5px;
+    padding: 15px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+.btns:hover{
+background-color: rgb(105, 105, 105);
+}
+.t1{
+    width: 286px;
+    height: 80px;
+}
+.equal{
+    background-color: rgb(255, 98, 0);
+}
+.equal:hover{
+    background-color: rgb(253, 160, 102);
+}
